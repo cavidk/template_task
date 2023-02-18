@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Figma Design Task</string>
+    <string name="underlined_text"><u>Şifrəni unutmusunuz?</u></string>
+    <string name="underlined_text2"><u>Hesab yarat</u></string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="reel">*</string>
+    <string name="call">CALL</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="new_password">New password</string>
+    <string name="current_password">Current password</string>
+    <string name="surname">Surname</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone-number</string>
+    <string name="email">Email</string>
+    <string name="_85_reviews">85 reviews</string>
+    <string name="_3_1">3.1</string>
+    <string name="eleanor_pena">Eleanor Pena</string>
+    <string name="save_changes">Save changes</string>
+    <string name="k_rim_hm_dli">Kərim Əhmədli</string>
+    <string name="s_r_c">Sürücü</string>
+    <string name="bak_g_nc">Bakı-Gəncə</string>
+    <string name="laq_n_mr_si">Əlaqə nömrəsi</string>
+    <string name="_994_50_111_00_00">(+994)50 111 00 00</string>
+    <string name="d_ni">Ödəniş</string>
+    <string name="m_nt_q_ni_t_rk_etm_vaxt">Məntəqəni tərk etmə vaxtı</string>
+    <string name="yeni_t_klif">Yeni təklif</string>
+    <string name="ndi_t_tbiqd_n_istifad_etm_y_ba_la_h_m_puluna_q_na_t_et_h_m_d_yol_yolda_n_tap">İndi tətbiqdən istifadə etməyə başla, həm puluna qənaət et, həm də yol yoldaşını tap</string>
+    <string name="ba_lan_c_n_qt">Başlanğıc nöqtə</string>
+    <string name="axtard_n_z_s_r_c_n_daha_rahat_tapmaq_n_t_klif_yarad_n">Axtardığınız sürücünü daha rahat tapmaq üçün təklif yaradın</string>
+    <string name="ki">Şəki</string>
+    <string name="note">Siqaret çəkilməsin, yük olaraq ortaboylu çamadanım var</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+
+
+</resources>

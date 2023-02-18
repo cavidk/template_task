@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4F4F4F"
+    android:orientation="vertical"
+    tools:context=".DialScreen">
+
+    <TextView
+        android:layout_width="382dp"
+        android:layout_height="312dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="9dp"
+        android:background="#D9D9D9" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="15dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button1"
+            android:layout_width="122dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:backgroundTint="#E0E0E0"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/_1"
+            android:textColor="#353535"
+            android:textSize="25sp"
+            app:cornerRadius="8dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button2"
+            android:layout_width="122dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:backgroundTint="#E0E0E0"
+            android:lineHeight="2sp"
+            android:textAllCaps="false"
+            android:fontFamily="@font/roboto_medium"
+            android:text="2 abc"
+            android:textColor="#353535"
+            android:textSize="25sp"
+            app:cornerRadius="8dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button3"
+            android:layout_width="122dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="1"
+            android:backgroundTint="#E0E0E0"
+            android:fontFamily="@font/roboto_medium"
+            android:text="3 def"
+            android:textAllCaps="false"
+            android:textColor="#353535"
+            android:textSize="25sp"
+            app:cornerRadius="8dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button4"
+            android:layout_width="122dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:backgroundTint="#E0E0E0"
+            android:fontFamily="@font/roboto_medium"
+            android:text="4 ghi"
+            android:textAllCaps="false"
+            android:textColor="#353535"
+            android:textSize="25sp"
+            app:cornerRadius="8dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button5"
+            android:layout_width="122dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:backgroundTint="#E0E0E0"
+            android:fontFamily="@font/roboto_medium"
+            android:text="5 jkl"
+            android:textAllCaps="false"
+            android:textColor="#353535"
+            android:textSize="25sp"
+            app:cornerRadius="8dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button6"
+            android:layout_width="122dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="1"
+            android:backgroundTint="#E0E0E0"
+            android:fontFamily="@font/roboto_medium"
+            android:text="6 mno"
+            android:textAllCaps="false"
+            android:textColor="#353535"
+            android:textSize="25sp"
+            app:cornerRadius="8dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button7"
+            android:layout_width="122dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:backgroundTint="#E0E0E0"
+            android:fontFamily="@font/roboto_medium"
+            android:text="7 pqrs"
+            android:textAllCaps="false"
+            android:textColor="#353535"
+            android:textSize="25sp"
+            app:cornerRadius="8dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button8"
+            android:layout_width="122dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:backgroundTint="#E0E0E0"
+            android:fontFamily="@font/roboto_medium"
+            android:text="8 tuv"
+            android:textAllCaps="false"
+            android:textColor="#353535"
+            android:textSize="25sp"
+            app:cornerRadius="8dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button9"
+            android:layout_width="122dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="1"
+            android:backgroundTint="#E0E0E0"
+            android:fontFamily="@font/roboto_medium"
+            android:text="9 wxyz"
+            android:textAllCaps="false"
+            android:textColor="#353535"
+            android:textSize="25sp"
+            app:cornerRadius="8dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button"
+            android:layout_width="122dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="7dp"
+            android:layout_weight="1"
+            android:backgroundTint="#E0E0E0"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/reel"
+            android:textColor="#353535"
+            android:textSize="35sp"
+            app:cornerRadius="8dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button0"
+            android:layout_width="122dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:backgroundTint="#E0E0E0"
+            android:fontFamily="@font/roboto_medium"
+            android:text="0"
+            android:textColor="#353535"
+            android:textSize="25sp"
+            app:cornerRadius="8dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button00"
+            android:layout_width="122dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="1"
+            android:backgroundTint="#E0E0E0"
+            android:fontFamily="@font/roboto_medium"
+            android:text="#"
+            android:textColor="#353535"
+            android:textSize="25sp"
+            app:cornerRadius="8dp" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="380dp"
+        android:layout_height="58dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="23dp"
+        android:backgroundTint="#86D978"
+        android:text="@string/call"
+        android:textColor="#353535"
+        android:fontFamily="@font/poppins_medium"
+        android:drawableLeft="@drawable/baseline_call_24"
+        android:textSize="18sp"
+        app:cornerRadius="8dp"
+
+        />
+</LinearLayout>

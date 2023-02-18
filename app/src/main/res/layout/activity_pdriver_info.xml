@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PDriverInfo"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/textHere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center"
+        android:paddingStart="20dp"
+        android:paddingEnd="30dp"
+        android:text="@string/bak_g_nc"
+        android:textAlignment="center"
+        android:textColor="#353535"
+        android:textSize="20sp"
+        app:drawableLeftCompat="@drawable/baseline_arrow_back_24"
+        tools:ignore="RtlSymmetry" />
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/profile_image"
+        android:layout_width="175dp"
+        android:layout_height="164dp"
+        android:layout_below="@id/textHere"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/prphoto"
+        app:civ_border_width="2dp" />
+
+    <TextView
+        android:id="@+id/driverH"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_image"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="265dp"
+        android:layout_toEndOf="@id/CarModel"
+        android:fontFamily="@font/poppins"
+        android:hint="@string/s_r_c"
+        android:textColor="#8D8D8D"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/driverN"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="279dp"
+        android:layout_marginEnd="264dp"
+        android:layout_toEndOf="@id/CarModel"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/k_rim_hm_dli"
+        android:textColor="#353535"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/driverNumİnf"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_image"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="312dp"
+        android:layout_marginEnd="264dp"
+        android:layout_toEndOf="@id/CarModel"
+        android:fontFamily="@font/poppins"
+        android:text="@string/laq_n_mr_si"
+        android:textColor="#8D8D8D"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/driverNumb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/driverNumİnf"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="false"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="339dp"
+        android:layout_toEndOf="@id/CarModel"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/_994_50_111_00_00"
+        android:textColor="#353535"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/payment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_image"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="false"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginEnd="267dp"
+        android:layout_toEndOf="@id/CarModel"
+        android:fontFamily="@font/poppins"
+        android:text="@string/d_ni"
+        android:textColor="#8D8D8D"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/payment"
+        android:layout_alignParentStart="true"
+
+        android:layout_toEndOf="@id/CarModel"
+        android:fontFamily="@font/poppins_medium"
+        android:text="10 AZN"
+        android:textColor="#353535" />
+
+    <TextView
+        android:id="@+id/departT"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_image"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="false"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="424dp"
+        android:layout_marginEnd="247dp"
+        android:layout_toEndOf="@id/CarModel"
+        android:fontFamily="@font/poppins"
+        android:text="@string/m_nt_q_ni_t_rk_etm_vaxt"
+        android:textColor="#8D8D8D"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/depart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/departT"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="449dp"
+        android:layout_toEndOf="@id/CarModel"
+        android:fontFamily="@font/poppins_medium"
+        android:text="14:00"
+        android:textColor="#353535"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/CarModel"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="false"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="476dp"
+        android:layout_marginEnd="247dp"
+        android:fontFamily="@font/poppins"
+        android:text="Avtomobilin markası"
+        android:textColor="#8D8D8D"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/car"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/CarModel"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="499dp"
+        android:layout_toEndOf="@id/CarModel"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Hyundai Sonata"
+        android:textColor="#353535"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/CarNumb"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="false"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="528dp"
+        android:layout_marginEnd="248dp"
+        android:fontFamily="@font/poppins"
+        android:text="Avtomobilin nömrəsi"
+        android:textColor="#8D8D8D"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/numbCar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/CarNumb"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="552dp"
+        android:layout_toEndOf="@id/CarModel"
+        android:fontFamily="@font/poppins_medium"
+        android:text="10 - CK - 100"
+        android:textColor="#353535"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/CarClr"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="false"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="581dp"
+        android:layout_marginEnd="249dp"
+        android:fontFamily="@font/poppins"
+        android:text="Avtomobilin rəngi"
+        android:textColor="#8D8D8D"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/colorC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/CarClr"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="604dp"
+        android:layout_toEndOf="@id/CarModel"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Qırmızı"
+        android:textColor="#353535"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/weight"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="false"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="631dp"
+        android:layout_marginEnd="249dp"
+        android:fontFamily="@font/poppins"
+        android:text="Yük üçün yer"
+        android:textColor="#8D8D8D"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/weightP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/weight"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="654dp"
+        android:layout_toEndOf="@id/CarModel"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Var"
+        android:textColor="#353535"
+        android:textSize="14sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/weightP"
+
+        ></Space>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        android:backgroundTint="#F1D856"
+        android:text="Dəvəti qəbul et"
+        android:textColor="#353535"
+        app:cornerRadius="8dp" />
+
+
+</RelativeLayout>
