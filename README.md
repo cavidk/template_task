@@ -1,14 +1,14 @@
 
+*******************
 
-Project Title
-   Here has profile UI template Built as simple Android example 
+<h3>Here has profile UI template Built as simple Android example</h1> 
 
-Getting Started
+Getting Started<br>
 Instructions :
 
 1.  Java JDK has to be instelled already
 2.  Android Studio
-3.  Creaate emulator or use your Android device
+3.  Create emulator or use your Android device
 
 Dependencies<br>
   -> viewBinding<br>
