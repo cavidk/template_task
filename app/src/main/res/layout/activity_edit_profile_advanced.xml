@@ -9,7 +9,7 @@
 
     <ScrollView
         android:layout_width="381dp"
-        android:layout_height="623dp"
+        android:layout_height="607dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -170,6 +170,7 @@
                             tools:ignore="TouchTargetSizeCheck" />
 
                         <RadioButton
+                            android:id="@+id/female"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:clickable="true"
@@ -225,35 +226,35 @@
                         android:id="@+id/reading"
                         android:layout_width="match_parent"
                         android:layout_height="35dp"
-                        android:text="Reading"
+                        android:text="@string/reading"
                         tools:ignore="TouchTargetSizeCheck" />
 
                     <CheckBox
                         android:id="@+id/listening"
                         android:layout_width="match_parent"
                         android:layout_height="35dp"
-                        android:text="Listening"
+                        android:text="@string/listening"
                         tools:ignore="TouchTargetSizeCheck" />
 
                     <CheckBox
                         android:id="@+id/playing"
                         android:layout_width="match_parent"
                         android:layout_height="35dp"
-                        android:text="Playing"
+                        android:text="@string/playing"
                         tools:ignore="TouchTargetSizeCheck" />
 
                     <CheckBox
                         android:id="@+id/coding"
                         android:layout_width="match_parent"
                         android:layout_height="35dp"
-                        android:text="Coding"
+                        android:text="@string/coding"
                         tools:ignore="TouchTargetSizeCheck" />
 
                     <CheckBox
                         android:id="@+id/sleeping"
                         android:layout_width="match_parent"
                         android:layout_height="35dp"
-                        android:text="Sleeping"
+                        android:text="@string/sleeping"
                         tools:ignore="TouchTargetSizeCheck" />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
@@ -268,8 +269,7 @@
                 app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/pName"
-                app:layout_constraintVertical_bias="0.888" />
-
+                app:layout_constraintVertical_bias="1.0" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -285,7 +285,7 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <Button
-            android:id="@+id/save_button"
+            android:id="@+id/s_button"
             android:layout_width="342dp"
             android:layout_height="50dp"
             android:backgroundTint="#00966A"

@@ -42,4 +42,19 @@
     <string name="wednesday">Wednesday</string>
 
 
+    <string name="gender">
+
+        My Email is:
+        My phone number is:
+        My name is:
+        My Gender is:
+        My hobbies are:
+
+    </string>
+    <string name="listening">Listening</string>
+    <string name="reading">Reading</string>
+    <string name="coding">Coding</string>
+    <string name="playing">Playing</string>
+    <string name="sleeping">Sleeping</string>
+
 </resources>
